@@ -32,8 +32,8 @@ plot(X[,1],X[,2])
 
 # modelo,(como modelador de los datos, conoces epsilon)
 
-beta <- c(4,-2, 9, -3)
-c <- 15
+beta <- c(5,-4, 8, -1)
+c <- 18
 epsilon = rnorm(1000,0,4)
 cuadrado <- X[,1]^2
 interaccion <- X[,1]*X[,2]
